@@ -3,6 +3,28 @@
     <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
   </head>
   <body>
-    The best place to start is the "WelcomeController.py" file in app/controllers.
+	<div class='wrapper'>
+		<h3 id="nameTitle">Your name:</h3>
+			<input id="nameBox" type="text" name="name" value="--enter your name here--"></input>
+			<h3 id="location">Dojo Location:</h3>
+				<select>
+					<option value='San Jose'>San Jose</option>
+					<option value='Seattle'>Seattle</option>
+					<option value='New York'>New York</option>
+					<option value='Detroit'>Detroit</option>
+				</select>
+			
+		<h3 id='lang'>Favorite Lang:</h3>
+			<select>
+				<option value='Python'>Python</option>
+				<option value='PhP'>PhP</option>
+				<option value='HTML'>HTML</option>
+				<option value='Java'>Java</option>
+			</select>
+			
+		<h3>Comment (optional):</h3>
+		<textarea></textarea>
+		<input class="button" type="submit" action="postInfo" method="post" ></input>
+	</div>
   </body>
 </html>
