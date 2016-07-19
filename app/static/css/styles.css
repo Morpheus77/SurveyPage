@@ -15,25 +15,23 @@
 
 h3{
 	font-family:cursive;
-	padding:40px;
+	padding:10px;
 	
 }
 
 #location{
-	display:inline-block;
+	display:block;
 }
 
 #lang{
-	display:inline-block;
+	display:block;
 }
 
 #nameTitle{
-	display:inline-block;
+	display:block;
 }
 
 #nameBox{
-	display:inline-block;
-	display:inline-block;
 	height:50px;
 	width:600px;
 	font-family:cursive;
@@ -43,7 +41,7 @@ h3{
 }
 
 select{
-	display:inline-block;
+	display:block;
 	height:50px;
 	width:600px;
 	font-family:cursive;
@@ -54,22 +52,21 @@ select{
 textarea{
 	height:200px;
 	width:600px;
-	padding:0px;
 	border-radius:3px;
 	font-size:200%;
-	margin-left:200px;
 	display:block;
 	border:3px solid white;
+	font-family:cursive;
 }
 
 .button{
 	display: block;
 	position: float;
-	margin-left:710px;
 	margin-top: 20px;
 	background: green;
 	height:50px;
 	width:100px;
 	border:3px solid white;
+	vertical-align:left;
 	
 }
