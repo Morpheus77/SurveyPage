@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/css/Resultstyles.css" type="text/css">
+  </head>
+  <body>
+    <p class="header">Thanks for Submitting this form! You have submitted this form {{x}} times now</p>
+		<div class= "info">
+			<h4 class="infoHeading">Submitted Info:</h4>
+				<p id='name'>Name: <span>{{name}}</span></p>
+				<p id='location'>Dojo Location: <span>{{location}}</span></p>
+				<p id='lang'>Favorite Language: <span>{{lang}}</span></p>
+				<p id = 'comment'>Comment: <span>{{comment}}</span></p>
+			<a method='GET' href="http://localhost:5000"><input type='submit' action='/return' method='POST' value='Go Back'></input></a>
+		</div>
+  </body>
+</html> 

@@ -1,0 +1,28 @@
+.header{
+	height:100px;
+	width:300px;
+	border:2px solid black;
+	border-radius:3px;
+	background: green;
+	font-size:15px;
+	font-family:cursive;
+	color: white; 
+}
+
+
+div p{
+	height:100px;
+	width:300px;
+	border:2px solid black;
+	border-radius:3px;
+	background: green;
+	
+	font-family:cursive;
+	color: white; 
+}
+
+span{
+	font-size:20px;
+}
+
+
